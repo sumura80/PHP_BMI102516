@@ -1,0 +1,89 @@
+*{
+	margin:0;
+	padding:0;
+	 
+}
+
+
+body{
+	padding:2%;
+	font-family: Arial, 'Tomaho', sans-serif;
+	color:#2f4f4f;
+	background-color: #d8bfd8;
+ 
+}
+ 
+h1{
+
+}
+
+.jumbotron h1{
+	font-size:40px;
+	color: #FFF;
+}
+.jumbotron p{
+	color: #FFF;
+}
+
+
+.jumbotron  {
+ 	margin:0;
+	padding-left:30px;
+	 
+ }
+
+
+.navbar-brand{
+	color:#FFF;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    text-align: center;
+    margin:0 auto;
+    font-size:20px;
+} 
+
+.cal_bmi{
+	margin-top:5%;
+	border: 1px solid #66cdaa;
+	border-radius: 5px;
+	padding: 20px;
+	 
+}
+.cal_bmi th,td{
+	padding: 10px 10px ;
+	font-size: 18px;
+ 
+
+	 
+} 
+.btn{
+	margin-left:25%;
+
+}
+
+footer{
+	text-align:center;
+	padding:10px;
+	background-color: #d3d3d3;	
+	margin-top:20px;
+}
+
+.result-tbl th,td{
+	 font-size:30px;
+}
+ 
+.second_tbl{
+	background-color: #e0ffff;
+}
+.second_tbl th{
+	 font-size:12px;
+	 background-color: #ffe4b5;
+	 
+}
+
+.second_tbl td{
+	 font-size:12px;
+
+	 
+}

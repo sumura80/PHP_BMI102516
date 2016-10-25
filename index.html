@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>PHP-BMI検査</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+<body>
+    
+
+<nav class="navbar navbar-inverse navbar-static-top navbar-fixed-top">
+ <div class="container ">
+        <div class="navbar-header">
+          <div class="navbar-brand">
+            BMI検査
+          </div>
+        </div>
+
+    </div><!--end container-fluid -->
+
+</nav><!--end nav-->
+
+<div class="jumbotron" style="background:url(pics/top.jpg)">
+ <div class="container">
+  <h1>生活習慣病を予防しましょう</h1>
+  <p>このサイトでは、習慣生活病を早期に発見するために検査を推進しております。</p>
+
+</div>
+
+
+ 
+
+
+ <div class=" well center-block cal_bmi" style="width:50%;"  >
+
+        <h2>BMIの計算</h2>
+
+        <form name="input_form" action="result.php" method="POST">
+
+          <table class="enter">
+            <tr>
+              <th>身長</th>
+              <td><input type="text" name="height"> Cm</td>
+            </tr></br />
+
+            <tr>
+              <th>体重</th>
+              <td><input type="text" name="weight"> Kg</td>
+            </tr>
+
+          </table>
+              <br />
+            <input type="submit" value="検査結果" class="btn btn-primary ">
+        </form>
+
+</div><!-- END cal bmi -->
+ 
+
+  </div><!--end container-->
+<footer class="footer">
+   
+    <p>Place sticky footer content here.</p>
+ 
+</footer>
+
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
