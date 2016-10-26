@@ -112,6 +112,10 @@ if( $bmi  < 18.5){
 </table>
  </div><!--END table-responsive-->
 
+
+<button class="btn btn-success center-block" style="width:420px; margin-top:20px;" onClick="location.href='index.html' ">検査画面に戻る</button> 
+
+
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
