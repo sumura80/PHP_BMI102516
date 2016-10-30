@@ -1,7 +1,6 @@
 *{
 	margin:0;
 	padding:0;
-	 
 }
 
 
@@ -10,17 +9,14 @@ body{
 	font-family: Arial, 'Tomaho', sans-serif;
 	color:#2f4f4f;
 	background-color: #d8bfd8;
- 
 }
  
-h1{
-
-}
 
 .jumbotron h1{
 	font-size:40px;
 	color: #FFF;
 }
+
 .jumbotron p{
 	color: #FFF;
 }
@@ -29,9 +25,7 @@ h1{
 .jumbotron  {
  	margin:0;
 	padding-left:30px;
-	 
  }
-
 
 .navbar-brand{
 	color:#FFF;
@@ -53,21 +47,18 @@ h1{
 .cal_bmi th,td{
 	padding: 10px 10px ;
 	font-size: 18px;
- 
-
-	 
-} 
-.btn{
-	margin-left:25%;
-
 }
 
+.btn{
+	margin-left:25%;
+}
+/*
 footer{
 	text-align:center;
 	padding:10px;
 	background-color: #d3d3d3;	
 	margin-top:20px;
-}
+}*/
 
 .result-tbl th,td{
 	 font-size:30px;
@@ -84,6 +75,4 @@ footer{
 
 .second_tbl td{
 	 font-size:12px;
-
-	 
 }
